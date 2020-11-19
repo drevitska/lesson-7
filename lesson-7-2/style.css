@@ -1,0 +1,125 @@
+
+
+* {
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+}
+body {
+    color: #fff;
+    font-size: 22px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+section {
+    background-color: #3399cc;
+    border: 23px solid #2b81ac;
+    padding-top: 37px;
+    padding-bottom: 144px;
+
+}
+.container {
+    width: 100%;
+
+}
+.block {
+    width: 67%;
+    margin: 0 auto;
+}
+.title {
+    padding-bottom: 39px;
+
+}
+ul {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    border: 3px solid #fff;
+
+}
+li {
+    list-style-type: none; /* Убираем маркеры */
+    display: inline-block;
+    font-size: 22px;
+    border: 3px solid #fff;
+    height: 157px;
+    text-align: center;
+    padding-top: 38px;
+    position: relative;
+}
+li div {
+    margin-bottom: 25px;
+}
+.town-1 {
+    width: 50%;
+}
+.town-2 {
+    width: 25%;
+    background-color: #33cccc;
+  
+}
+.town-3 {
+    width: 25%;
+    background-color: #996699;
+}
+.town-4 {
+    width: 25%;
+    background-color: #c24747;
+}
+.town-5 {
+    width: 25%;
+    background-color: #e2674a;
+}
+.town-6 {
+    width: 25%;
+    background-color: #ffcc66;
+}
+.town-7 {
+    width: 25%;
+    background-color: #99cc99;
+}
+.town-8 {
+    width: 25%;
+    background-color: #669999;
+}
+.town-9 {
+    width: 50%;
+    background-color: #cc6699;
+}
+.town-10 {
+    width: 25%;
+    background-color: #339966;
+}.town-11 {
+    width: 100%;
+    background-color: #666699;
+}
+article {
+    opacity: 0.5; 
+}
+
+
+
+/* ul:hover > li:after {
+    opacity: 0.5; 
+}
+ul > li:hover:after {
+    opacity: 0;
+}
+li:after {
+    content: '';
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    opacity: 0;
+} */
+
+ul:hover li{
+    opacity: 0.7;
+}
+ul > li:hover {
+    opacity: 1;
+    border: 3px solid #efcfdf;
+
+}
+
